@@ -1,5 +1,4 @@
 # MTicTacToe
-Mega Tic Tac Toe
 
 Almost like a regular "Tic Tac Toe" game, but here you can choose the size of the board and the amount of players! 
 The functions are dynamic also, why the program is efficient on tunning time?
