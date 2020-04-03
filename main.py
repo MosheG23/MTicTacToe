@@ -335,7 +335,6 @@ def main():
     global turn
     # Initialize the game
     Game_Setup()
-    Display_Board()
     print("Need to win: " + str(amount_to_win))
     # Start Playing
     turn = 1
@@ -345,12 +344,12 @@ def main():
     while gameStillGoing:
         currentPlayer = (startingPlayer + (turn - 1)) % number_of_players
         print(f"Player {currentPlayer+1}")
+        Show_Status()
         # Handle_Turn(currentPlayer, turn)
         if (turn > amount_of_cells or Handle_Turn(currentPlayer, turn)):
             gameStillGoing = False
         else:
             turn+=1
-        Show_Status()
     print("")
 
 if __name__ == "__main__":
