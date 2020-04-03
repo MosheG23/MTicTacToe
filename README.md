@@ -7,7 +7,12 @@ The functions are dynamic also, why the program is efficient on tunning time?
 2. The program checks a winner only on the position that the player played
 
 <h3>Notes: </h3>
-The player to start will be selected randomly. <br>
-On the start of the game you can your letter. <br>
-There are global variables at the start of the code where you can decide the range of board sizes. <br>
-The position are printed with the number of each position.
+<ul>
+<li>The player to start will be selected randomly. </li>
+<li>On the start of the game you can your letter.</li>
+<li>There are global variables at the start of the code where you can decide the range of board sizes. </li>
+<li>The position are printed with the number of each position.</li>
+</ul>
+
+<h3>Fixes needed: </h3>
+Diagonal Win
